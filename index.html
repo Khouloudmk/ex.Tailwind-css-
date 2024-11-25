@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Css Exercice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<section class="bg-gray-100 font-arial">
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="bg-white p-8 rounded-xl shadow-xl">
+            <h1 class="text-blue-500 text-center font-bold text-3xl">Mon Projet Web</h1>
+            <!-- box1 section-->
+            <div class="p-6 m-4 bg-gray-50 border-2 rounded-lg">
+                <h2 class="font-bold text-1xl">Introduction</h2>
+                <p class="mt-2">Dans cet exemple,nous utilisons tailwind CSS pour styliser un projet web.</p>
+            </div>
+            <!-- button section-->
+            <button class="bg-blue-500 text-white p-3 rounded-md hover:bg-blue-700 transition duration-300">Cliquez ici</button>
+            <!-- box2 section-->
+            <div class="border-2 border-dashed border-gray-500 mt-2 p-3 mb-4">
+                <p class="font-bold">Classes Utilitaire</p>
+                <p class="italic text-gray-500">Le texte de cette section est en italique grace a "italic".</p>
+            </div>
+            <!-- paragraphs section-->
+            <div class="font-bold text-2xl">
+                <p class="text-green-600 font-serif">Titre avec une police serif.</p>
+                <p class="text-red-600 font-sans">Titre avec une police sans-serif.</p>
+            </div>
+            <!-- form1 section-->
+            <div class="mt-3">
+                <input class="border-2 border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Entez votre texte"></input>
+            </div>
+            <!-- box3 section-->
+            <div class="bg-green-500 p-4 sm:p-6 md:p-8 lg:p-10 mt-3 text-white">
+                <p>Ce padding est réactif et augmente avec la taille de l'écran.</p>
+            </div>
+            <!-- form2 section-->
+            <div>
+                <h2 class="text-gray-500">Email</h2>
+                <input type="email" class="rounded-md focus:ring-indigo-500 focus:border-indigo-500 border-2 w-full" placeholder="Email@gmail.com" ></input>
+            </div>
+         </div>
+    </div>
+</section>
+</body>
+</html>
